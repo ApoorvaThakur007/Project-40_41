@@ -14,19 +14,19 @@ class Form{
     }
     display() {
         this.title.html("FRUIT CATCHER");
-        this.title.position(550, 50);
+        this.title.position(250, 50);
         this.title.style('font-size', '70px');
         this.title.style('color', 'skyblue');
-        this.input.position(750,400);
+        this.input.position(450,400);
         this.input.style('width', '200px');
         this.input.style('height', '20px');
         this.input.style('background', 'lavender');
-        this.button.position(760,500);
+        this.button.position(460,500);
         this.button.style('width', '200px');
         this.button.style('height', '40px');
         this.button.style('background', 'lightpink');
 
-        this.reset.position(1285,114);
+        this.reset.position(985,114);
         this.reset.style('width', '50px');
         this.reset.style('height', '30px');
         this.reset.style('background', 'lightpink');
